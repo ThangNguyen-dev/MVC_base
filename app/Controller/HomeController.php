@@ -9,6 +9,6 @@ class HomeController
     public static function home()
     {
         $user = new ModelUser();
-        // echo $user->home();
+        echo $user->home();
     }
 }

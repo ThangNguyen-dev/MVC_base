@@ -17,8 +17,8 @@ spl_autoload_register(function ($classname) {
      * if exist file in vendor or in app is require else die;
      */
 
-    if (file_exists(__DIR__ . "/../vendor/src/" . $classname . ".php")) {
-        require __DIR__ . "/../vendor/src/" . $classname . ".php";
+    if (file_exists(__DIR__ . "/../vendor/" . $classname . ".php")) {
+        require __DIR__ . "/../vendor/" . $classname . ".php";
     } elseif (file_exists(__DIR__ . "/../" . $classname . ".php")) {
         require __DIR__ . "/../" . $classname . ".php";
     } else {

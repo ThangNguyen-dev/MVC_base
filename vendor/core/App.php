@@ -7,7 +7,8 @@ class App
 
     public function __construct()
     {
-        // $this->startSession();
+        $this->startSession();
+        $this->getWeb();
     }
 
     /**
@@ -21,5 +22,10 @@ class App
             return true;
         }
         return false;
+    }
+
+    public function getWeb()
+    {
+        require __DIR__ . "../../../routes/web.php";
     }
 }
