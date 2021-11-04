@@ -15,11 +15,6 @@ class Database
     private $columns;
     private $values;
 
-
-    public static function echos()
-    {
-        echo 10000;
-    }
     public function __construct()
     {
         try {
