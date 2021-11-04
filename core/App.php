@@ -26,6 +26,6 @@ class App
 
     public function getWeb()
     {
-        require __DIR__ . "../../../routes/web.php";
+        return require __DIR__ . "/../routes/web.php";
     }
 }
