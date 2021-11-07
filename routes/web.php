@@ -1,4 +1,4 @@
 <?php
 
 
-// echo "Da vao route san sang cho Router";
+echo "Da vao route san sang cho Router";
